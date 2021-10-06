@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.10.0 on win32)" generated="20211006 11:32:22.187" rpa="false" schemaversion="2">
+<suite id="s1" name="Variables" source="C:\Users\Prime\Documents\Projetos\PrimeTeste\variables">
+<suite id="s1-s1" name="Teste Nome" source="C:\Users\Prime\Documents\Projetos\PrimeTeste\variables\teste_nome.robot">
+<test id="s1-s1-t1" name="Informa meu nome">
+<kw name="Meu nome:">
+<kw name="Log" library="BuiltIn">
+<arg>${nome}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211006 11:32:22.217" level="INFO">Renato</msg>
+<status status="PASS" starttime="20211006 11:32:22.216" endtime="20211006 11:32:22.217"/>
+</kw>
+<status status="PASS" starttime="20211006 11:32:22.216" endtime="20211006 11:32:22.217"/>
+</kw>
+<status status="PASS" starttime="20211006 11:32:22.215" endtime="20211006 11:32:22.218"/>
+</test>
+<test id="s1-s1-t2" name="Informa minha idade">
+<kw name="Minha idade:">
+<kw name="Log" library="BuiltIn">
+<arg>${idade}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211006 11:32:22.220" level="INFO">31 anos</msg>
+<status status="PASS" starttime="20211006 11:32:22.220" endtime="20211006 11:32:22.220"/>
+</kw>
+<status status="PASS" starttime="20211006 11:32:22.219" endtime="20211006 11:32:22.220"/>
+</kw>
+<status status="PASS" starttime="20211006 11:32:22.218" endtime="20211006 11:32:22.220"/>
+</test>
+<test id="s1-s1-t3" name="Informa minha profissao">
+<kw name="Minha profissao:">
+<kw name="Log" library="BuiltIn">
+<arg>${profissao}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211006 11:32:22.221" level="INFO">Analista</msg>
+<status status="PASS" starttime="20211006 11:32:22.221" endtime="20211006 11:32:22.221"/>
+</kw>
+<status status="PASS" starttime="20211006 11:32:22.221" endtime="20211006 11:32:22.221"/>
+</kw>
+<status status="PASS" starttime="20211006 11:32:22.221" endtime="20211006 11:32:22.222"/>
+</test>
+<test id="s1-s1-t4" name="Informa meu hoby">
+<kw name="Meu hoby:">
+<kw name="Log" library="BuiltIn">
+<arg>${hoby}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211006 11:32:22.222" level="INFO">Academia</msg>
+<status status="PASS" starttime="20211006 11:32:22.222" endtime="20211006 11:32:22.222"/>
+</kw>
+<status status="PASS" starttime="20211006 11:32:22.222" endtime="20211006 11:32:22.223"/>
+</kw>
+<status status="PASS" starttime="20211006 11:32:22.222" endtime="20211006 11:32:22.223"/>
+</test>
+<doc>Meu Perfil</doc>
+<status status="PASS" starttime="20211006 11:32:22.212" endtime="20211006 11:32:22.224"/>
+</suite>
+<suite id="s1-s2" name="Teste Variaveis" source="C:\Users\Prime\Documents\Projetos\PrimeTeste\variables\teste_variaveis.robot">
+<test id="s1-s2-t1" name="Meu teste de impressao de menssagem no terminal">
+<kw name="Logar no terminal uma menssagem">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${menssagem}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211006 11:32:22.228" endtime="20211006 11:32:22.229"/>
+</kw>
+<status status="PASS" starttime="20211006 11:32:22.228" endtime="20211006 11:32:22.229"/>
+</kw>
+<status status="PASS" starttime="20211006 11:32:22.228" endtime="20211006 11:32:22.229"/>
+</test>
+<doc>Meu teste de variaveis</doc>
+<status status="PASS" starttime="20211006 11:32:22.225" endtime="20211006 11:32:22.230"/>
+</suite>
+<status status="PASS" starttime="20211006 11:32:22.189" endtime="20211006 11:32:22.231"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" fail="0" skip="0" id="s1" name="Variables">Variables</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s1" name="Teste Nome">Variables.Teste Nome</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="Teste Variaveis">Variables.Teste Variaveis</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
